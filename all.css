@@ -1,0 +1,74 @@
+
+    .img_align{ 
+       margin-top:0px;
+       padding:0px;
+       overflow:hidden;
+       margin-top:-12px;
+       margin-left:-10px;
+       border-radius:30%;
+    }
+    .navbar-custom{
+            background-color: #8a524c;
+            font-family:"ink free";
+            font-weight:800;
+        }
+
+        .navbar-brand,.navbar-text {
+          text-decoration:none;
+          color: #702f26;}
+
+  .carousel-inner {
+            max-height: 400px;
+            }
+  img {
+    max-height:400px;
+  }
+
+  .navbar a {
+    color: rgb(255, 255, 255);
+    font-size:5.5mm;
+    word-spacing: 1cm;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:"comic sans ms";
+  word-spacing:0.5cm;
+  color:white;
+  text-shadow: 1px 0px 10px red,0px 3px 0px black;
+}
+p,ul,li{
+  font-family:"mv boli";
+  font-size:large;
+  word-spacing: 0.4cm;
+  letter-spacing:0.1cm;
+  color:rgb(234, 255, 0);
+  text-shadow:1px 0px 10px rgb(255, 0, 0)
+}
+
+div.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.container {
+  padding: 10px;}
+
+
+  .fade-in-image {
+    opacity: 50%;
+  }
+  
+  .fade-in-image:hover {
+    opacity: 100%;
+    transition: opacity 1s;
+  }
+
+  .fade-in-text {
+    font-family: Arial;
+    animation: fadeIn 5s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
